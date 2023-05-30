@@ -4,9 +4,12 @@ appropriate subgragh.
 
 In this example we have three components. Start each of the servers in a new terminal (the Gateway should be started last).
 
-
 Subgraphs
+
 - nest-graphql-rules (`npm run start:dev`)
+  - http://localhost:4001/graphql
 - graphql-ms (`npm run start`)
-Gateway
+  - http://localhost:4000/graphql
+    Gateway
 - nest-graphql-gateway (`npm run start:dev`)
+  - http://localhost:3000/graphql
