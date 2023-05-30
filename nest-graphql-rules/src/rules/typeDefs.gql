@@ -1,0 +1,24 @@
+scalar Date
+scalar JSON
+
+type Rule {
+  id: ID!
+  name: String!
+  description: String
+  owner: String
+  createdBy: String
+  filter: JSON!
+  action: JSON!
+  activated: Boolean!
+  schedule: Schedule!
+}
+
+type Schedule {
+  startDate: Date
+  stopDate: Date
+}
+
+type Query {
+  rules: [Rule]
+  rule(id: ID!): Rule
+}
