@@ -19,3 +19,5 @@ In this example we have three components. Start each of the servers in a new ter
   - Typescript
   - `npm run start:dev`
   - http://localhost:3000/graphql
+
+Although you should be able to make requests directly to the individual subgraphs, the gateway is the intended use.
