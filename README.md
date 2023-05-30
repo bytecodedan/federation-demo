@@ -7,12 +7,15 @@ In this example we have three components. Start each of the servers in a new ter
 ### Subgraphs
 
 - nest-graphql-rules
+  - Typescript
   - `npm run start:dev`
   - http://localhost:4001/graphql
 - graphql-ms
+  - Javascript
   - `npm run start`
   - http://localhost:4000/graphql
 ### Gateway
 - nest-graphql-gateway
+  - Typescript
   - `npm run start:dev`
   - http://localhost:3000/graphql
